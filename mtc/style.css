@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+header{
+    width: 100%;
+    height:55px;
+    background-color: #141212;
+
+}
+.mtclmb{
+    position: absolute;
+    padding: 5px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5px;
+    color: #ffff;
+}
+span{
+    color: #7100B7;
+}
+ul{
+    width: auto;
+    float: right;
+    margin: 5px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1vw;
+    
+}
+a{
+    color: #ffffff;
+    font-size: 1.60vw;
+
+}
+a:hover{
+    color: #7100B7;
+    transition: 0.5s;
+}
+.backg{
+    width: 100%;
+	  height: 100vh;
+	  background-image:url('img/img2.png');
+	  background-size: cover;
+	  background-position:center;
+    background-attachment: fixed;
+}
+#discord .cta{
+	display: inline-block;
+	padding: 10px 30px;
+	color:#ffffff;
+	background-color: transparent;
+	border: 5px solid #ffffff;
+    border-radius: 18px;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	transition: .3s ease ;
+	transition-property: background-color,color;
+}
+#discord .cta:hover {
+	color: white;
+	background-color: #7100B7;
+}
+#discord .cta{
+    text-align: center;
+    width:20%;
+    padding: 20px;
+    margin-left: 37%;
+    margin-top: 300px;
+    
+}
+#about-us{
+    width: 100%;
+	  height: 100vh;
+	  background-image:url('img/img2.png');
+	  background-size: cover;
+	  background-position:center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+.titel{
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    margin-top: 40px;
+    color: #ffff;
+    font-size:40px  ;
+    font-weight:bolder;
+}
+.cadre{
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.884);
+	  border-radius: 18px;
+    
+    margin-left:2% ;
+    margin-right:2%;
+    margin-bottom: 2%;
+    width:1200px ;
+    height:70vh ;
+    transition-property: background-color,color;
+    padding-top: 30px;
+}
+.text{
+	color:#ffffff;
+  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Signika', sans-serif;   
+  font-size: 30px;
+	text-transform: uppercase;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom:20px;
+}
+.titel1{
+  color: #ffffff;
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size:25px ;
+  letter-spacing:2px;
+  padding-bottom: 20px;
+}
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.slider{
+  width:18vw;
+  height: 40vh;
+  margin-left:42%;
+  text-align: center;
+  overflow: hidden;
+ 
+}
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+#photo1{
+  padding-right: 30px;
+}
+#photo2{
+  padding-right: 30px;
+}
+#photo3{
+  padding-right: 30px;
+}
+#photo4{
+  padding-left: 30px;
+}
+
+
+.slides input{
+  display: none;
+}
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+.navigation-manuel{
+  position: absolute;
+  width: 142px;
+  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+
+}
+.manuel-btn:not(:last-child){
+  margin-left: 80px;
+}
+.manuel-btn:hover{
+  background:rgb(196, 7, 189);
+}
+#radio1:checked ~ .first{
+  margin-left: 0%;
+}
+#radio2:checked ~ .first{
+  margin-left:-20%;
+}
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+#radio4:checked ~ .first{
+  margin-left:-63%;
+}
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 142px;
+  margin-top: -200px;
+  justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+  margin-left: 80px
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background:  rgb(196, 7, 189);
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background:  rgb(196, 7, 189);
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background:  rgb(196, 7, 189);
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background:  rgb(196, 7, 189);
+}
+#WORK{
+  text-align: center;
+}
+.cadre1{
+  display: inline-block;
+  background-color:rgba(0, 0, 0, 0.884);
+  border-radius: 18px;
+  
+  
+  width:80% ;
+  height:70vh ;
+  transition-property: background-color,color;
+  padding-top: 30px;
+}
+#WORK img{
+   width: 20%;
+	 height: 20vh;
+   margin-left:5%;
+   margin-top:4%;
+   
+   
+}
+#TO-CONTACT{
+  text-align: center;
+}
+#TO-CONTACT img{
+   width:4%;
+   margin-top: 3%;
+   margin-right:5%;
+}
+.sm{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  
+}
+.sm a{
+  font-size: 200%;
+  margin-top: 3%;
+
+}
+@media only screen and (max-width:600px){
+  header{
+    width: 100%;
+    height:65px;
+    background-color: #141212;
+  }
+    .mtclmb{
+    padding: 4px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 25px;
+    }
+    ul{
+    margin: 1%;
+    }
+    li{
+    padding: 15px 10px;
+    font-size: 3vw;
+    
+    }
+    a{
+    
+      font-size: 80%;
+    }
+  
+    .backg{
+     width: 100%;
+	    height: 100vh;
+	    background-image:url('img/img2.png');
+	    background-size: cover;
+	    background-position:center;
+      background-attachment: fixed;
+    }
+ 
+    #discord .cta{
+        text-align: center;
+        width:50%;
+        padding: 20px;
+        margin-left: 25%;
+        margin-top: 300px;
+      }
+    #about-us{
+      width: 100%;
+	    height: 100vh;
+	    background-image:url('img/img2.png');
+	    background-size: cover;
+	    background-position:center;
+      background-attachment: fixed;
+      text-align: center;
+
+  } 
+  .titel{
+     text-align: center;
+      display: inline-block;
+      padding: 8px;
+      margin-top: 15%;
+      color: #ffff;
+      font-size:30px  ;
+      font-weight:bolder;
+  }
+  .cadre{
+      display: inline-block;
+      background-color:rgba(0, 0, 0, 0.884);
+	    border-radius: 18px;
+      margin-top: 4%;
+    
+      margin-left:2% ;
+      margin-right:2%;
+      margin-bottom: 2%;
+      width:90vw ;
+      height:65vh ;
+      transition-property: background-color,color;
+      padding-top: 30px;
+  }
+  .text{
+	  color:#ffffff;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Signika', sans-serif;   
+    font-size: 20px;
+	  text-transform: uppercase;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom:20px;
+  }
+  .titel1{
+    font-size:15px ;
+  }
+  #WORK{
+    text-align: center;
+  }
+  .cadre1{
+    display: inline-block;
+    background-color:rgba(0, 0, 0, 0.884);
+    border-radius: 18px;
+    
+    
+    width:95% ;
+    height:70vh ;
+    transition-property: background-color,color;
+    padding-top: 30px;
+  }
+  #WORK img{
+     width: 27%;
+     height: 20vh;
+     margin-left:2%;
+     margin-top:8%;
+     
+     
+  }
+  #TO-CONTACT{
+    text-align: center;
+  }
+  #TO-CONTACT img{
+     width:4%;
+     margin-top: 5%;
+     margin-right:5%;
+  }
+  .sm{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    
+  }
+  .sm a{
+    font-size: 200%;
+    margin-top: 5%;
+  
+  }
+}
+@media only screen and (max-width:414px){
+  .mtclmb{
+    padding: 4px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-size: 15px;
+    }
+  ul{
+    margin: 2%;
+    }
+    li{
+    padding: 15px 4px;
+    font-size: 4vw;
+    
+    }
+    a{
+    
+      font-size: 75%;
+    }
+    .cadre1{
+      display: inline-block;
+      background-color:rgba(0, 0, 0, 0.884);
+      border-radius: 18px;
+      
+      
+      width:95% ;
+      height:70vh ;
+      transition-property: background-color,color;
+      padding-top: 10px;
+    }
+    #WORK img{
+       width: 45%;
+       height: 20vh;
+       margin-left:2%;
+       margin-top:4%;
+       
+       
+    }
+    .titel2{
+      text-align: center;
+       display: inline-block;
+       padding: 8px;
+       margin-top: 15%;
+       color: #ffff;
+       font-size:20px  ;
+       font-weight:bolder;
+      }
+     #cadre2{
+      display: inline-block;
+      background-color:rgba(0, 0, 0, 0.884);
+      border-radius: 18px;
+      width:95% ;
+      height:40vh;
+      transition-property: background-color,color;
+      padding-top: 45px;
+      margin-top: 8%;
+
+     }
+    #TO-CONTACT{
+      text-align: center;
+    }
+    #TO-CONTACT img{
+       width:4%;
+       margin-top: 5%;
+       margin-right:5%;
+    }
+    .sm{
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 5%;
+      
+    }
+    .sm a{
+      font-size: 125%;
+      margin-top: 5%;
+    
+    }
+}
+@media only screen and (min-width:280px) and (max-width:380px){
+    #discord .cta{
+      display: inline-block;
+      padding: 10px 30px;
+      color:#ffffff;
+      background-color: transparent;
+      border: 5px solid #ffffff;
+      border-radius: 18px;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      transition: .3s ease ;
+      transition-property: background-color,color;
+    }
+    #discord .cta:hover {
+      color: white;
+      background-color: #7100B7;
+    }
+    #discord .cta{
+      text-align: center;
+      width:60%;
+      padding: 20px;
+      margin-left: 20%;
+      margin-top: 300px;
+      
+    }
+    #cadre2{
+      display: inline-block;
+      background-color:rgba(0, 0, 0, 0.884);
+      border-radius: 18px;
+      width:90% ;
+      height:45vh;
+      transition-property: background-color,color;
+      padding-top: 50px;
+      margin-top: 8%;
+
+     }
+    #TO-CONTACT{
+      text-align: center;
+    }
+    #TO-CONTACT img{
+       width:4%;
+       margin-top: 3%;
+       margin-right:5%;
+    }
+    .sm{
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 10%;
+      
+    }
+    .sm a{
+      font-size: 100%;
+      margin-top: 3%;
+    
+    }
+}
+  
+
+  
+
